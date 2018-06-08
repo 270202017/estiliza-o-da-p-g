@@ -1,112 +1,47 @@
-body {
-    max-width: 600px;
-    margin: 60px auto 0;
+body{ 
+    margin: 10px;
+    max-width: 1000px;
     font-family: sans-serif;
-    line-height: 1.5;
-    background-color: rgb(235, 235, 235);
+    background-size: cover;
 }
 
-h2 {
-    border-top: solid 5px lightgray;
-    margin-top: 50px;
-    padding-top: 50px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-h2 span {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 18px;
-    color: grey;
-    display: inline-block;
-    margin-left: 100px;
-}
-
-p{
-    color: #666;
-}
-
-#primeiro{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.azul{
-    color: blue;
-}
-
-[nome=menor]{
-    border: dotted 1px black;
-}
-
-footer{
-    margin-bottom: 100px;
-}
-
-ol{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 60px;
-}
-
-li{
-    background-color: grey;
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-
-li a {
-    text-decoration: none;
-}
-
-li a:visited{
-    color: black;
-}
-
-li a:hover{
-    color:green;
-    font-size: 18px;
-}
-
-.final{
-    width: 50px;
-    height: 50px;
-    border-radius: 3px;
-    border: none;
+nav h2{
+    font-size: 49px;
+    font-family: 'Indie Flower', cursive;   
+    margin-left: 10px;
     color: white;
-    font-size: 24px;
-    margin: auto 15px;
+    width: 75%;
 }
-
-.final:nth-child(1){
-    background-color: #3518f3;
+nav{
+    width: 1325px;
+    background-color: #844b32;
+    border-radius: 10px;
+    border-bottom: solid 5px gray;
+    height: 75px;
 }
+#i1{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5;
 
-.final:nth-child(2){
-    background-color: #4518f3;
+    border-radius: 10px;
+
+    margin-left:300px;
 }
-
-.final:nth-child(3){
-    background-color: #5518f3;
-}
-
-.final:nth-child(4){
-    background-color: #6518f3;
-}
-
-.final:nth-child(5){
-    background-color: #7518f3;
-}
-
-img{
-
-    border:#7518f3 3px solid;
-    position: relative;
-    top: 10px;
-    left: 150px;
-    /*position:fixed;*/
+.par1{
+    opacity: 0.8;
+    background-color: white;
     
-
+    text-align:center;
 }
-
+.ig1{
+    width: 400px;
+    height: 300px;
+    border: 8px solid white;
+    filter: grayscale(100%);
+    margin-left: 20%;
+}
+.ig1:hover{
+    transition: 0.5s;
+    filter: grayscale(0%);
+}
